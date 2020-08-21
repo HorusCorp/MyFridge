@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closet Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        
+            <div>MyFridge</div>
+       
+    </div>
+    <div class="title">
+        <form id="addfood">
+            <label for="foodtitle">Name</label>
+            <input type='text' id="foodtitle" placeholder='Enter food name here'><br/>
+            <label for="expiration_date">Expiration Date</label>
+            <input type='date' id="expirationdate" placeholder="Enter expiration date here"><br/>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    <ul class="array__header">
+        <li>
+            <div class="first-col">Name</div>
+            <div class="second-col">Expiration Date</div>
+            <div>Remove</div>
+        </li>
+    </ul>
+    <div class="food"></div>
+    <script src='./index.js' defer></script>
+</body>
+</html>
